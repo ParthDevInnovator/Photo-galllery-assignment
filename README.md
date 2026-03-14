@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Photo Gallery Web App
 
-# Run and deploy your AI Studio app
+A simple **React + Vite + Tailwind CSS** application that fetches photos from a public API, displays them in a responsive gallery, allows searching by author name, and lets users mark photos as favourites.
 
-This contains everything you need to run your app locally.
+This project was built as part of a **Frontend React Internship Pre-Screening Assignment**.
 
-View your app in AI Studio: https://ai.studio/apps/f3f461e1-be92-4bfd-9fda-9c8396510209
+---
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+* Fetches **30 photos from the Picsum API**
+* Displays photos in a **responsive grid layout**
+* **Real-time search** by author name
+* Mark/unmark photos as **favourites**
+* **Favourites persist** after page refresh using `localStorage`
+* Built with **React hooks and functional components**
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
