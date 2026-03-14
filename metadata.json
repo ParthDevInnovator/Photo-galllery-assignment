@@ -1,0 +1,5 @@
+{
+  "name": "Photo Gallery App",
+  "description": "A simple photo gallery with search, favourites, and persistence.",
+  "requestFramePermissions": []
+}
